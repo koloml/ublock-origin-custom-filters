@@ -1,0 +1,6 @@
+! Yandex images direct block
+yandex.ru##.directblock
+
+! Yandex.Mail advertisments in the mail list and on the left side of the web client
+mail.yandex.ru##.ns-view-mail-pro-left-column-button,.ns-view-mail-pro-left-column-button+div[class^=ns-view-]
+mail.yandex.ru##.ns-view-infoline-box+[class^=ns-view-]:not(.ns-view-right-box)
