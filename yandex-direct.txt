@@ -4,10 +4,15 @@ yandex.ru##.incut.incut_type_direct
 ! Detail image modal direct ad line
 yandex.ru##.ImagesViewer .ImagesViewerApp-FooterContent > :not(.MMGallery)
 
+! Blocks in Yandex.Weather
+yandex.ru##.b-page__container [class$=-segment_js_inited] [class^="card card_"]
+yandex.ru##.b-page__container .content__bottom + :not([class$=-segment_js_inited])
+yandex.ru##.b-page__container .content__bottom + div + .card:not([class$=-segment_js_inited])
+
 ! Yandex.Mail advertisments in the mail list and on the left side of the web client
 mail.yandex.ru##.ns-view-mail-pro-left-column-button,.ns-view-mail-pro-left-column-button+div[class^=ns-view-]
 mail.yandex.ru##.ns-view-infoline-box+[class^=ns-view-]:not(.ns-view-right-box)
-! Suggestion to install YandexBrowser on the top of mail web client
+! Suggestion to install YandexBrowser on the top of mail web clientф
 mail.yandex.ru##.ns-view-notifications+#bk-stripe
 
 ! Yandex Docviewer advertisements before and after documents
