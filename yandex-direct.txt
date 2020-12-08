@@ -12,7 +12,7 @@ yandex.ru##.b-page__container .content__bottom + div + .card:not([class$=-segmen
 ! Yandex.Mail advertisments in the mail list and on the left side of the web client
 mail.yandex.ru##.ns-view-mail-pro-left-column-button,.ns-view-mail-pro-left-column-button+div[class^=ns-view-]
 mail.yandex.ru##.ns-view-infoline-box+[class^=ns-view-]:not(.ns-view-right-box)
-! Suggestion to install YandexBrowser on the top of mail web clientф
+! Suggestion to install YandexBrowser on the top of mail web client
 mail.yandex.ru##.ns-view-notifications+#bk-stripe
 
 ! Yandex Docviewer advertisements before and after documents
