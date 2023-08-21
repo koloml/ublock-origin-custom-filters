@@ -1,0 +1,5 @@
+! 2023-08-21 https://iconmonstr.com
+! This will remove the popup with the blackout
+iconmonstr.com##[class$=-wrapper], [class*=-blackout]
+! This will get rid of the blur effect applied to the elements
+iconmonstr.com##body > *:style(filter: none !important)
