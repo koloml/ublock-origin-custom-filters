@@ -3,3 +3,6 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 
 ! This will remove shorts button on the sidebar
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=Shorts])
+
+! This will remove border-radius for the player
+www.youtube.com##:is(#ytd-player,#player-api):style(border-radius: 0 !important)
