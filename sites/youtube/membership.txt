@@ -1,0 +1,9 @@
+! Title: Kolo's Custom Filters - YouTube Membership
+! Description: Hide the private videos which are getting recommended despite you not having the membership. Might also hide videos for creators you're member of.
+! Last Modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+
+! This will hide annoying "Members Only" videos from side recommendations
+www.youtube.com##yt-lockup-view-model.ytd-item-section-renderer:has(yt-badge-view-model > badge-shape.yt-badge-shape--commerce)

@@ -1,0 +1,9 @@
+! Title: Kolo's Custom Filters - YouTube AI Features
+! Description: Hiding the AI-related features like Video Summary.
+! Last Modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+
+! This hides "Video Summary" from Gemini which appears under the video description
+www.youtube.com###expandable-metadata:has(> ytd-expandable-metadata-renderer[has-video-summary])

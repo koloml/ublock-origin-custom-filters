@@ -5,16 +5,6 @@
 ! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
 ! Homepage: https://github.com/koloml/ublock-origin-custom-filters
 
-! This will remove the YouTube shorts from the feed
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-rich-section-renderer
-www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer
-
-! This will remove shorts button on the sidebar
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=Shorts])
-
-! This will hide annoying "Members Only" videos from side recommendations
-www.youtube.com##yt-lockup-view-model.ytd-item-section-renderer:has(yt-badge-view-model > badge-shape.yt-badge-shape--commerce)
-
-! This hides "Video Summary" from Gemini which appears under the video description
-www.youtube.com###expandable-metadata:has(> ytd-expandable-metadata-renderer[has-video-summary])
+!#include youtube/shorts.txt
+!#include youtube/membership.txt
+!#include youtube/gemini.txt

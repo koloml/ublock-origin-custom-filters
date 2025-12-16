@@ -1,0 +1,14 @@
+! Title: Kolo's Custom Filters - YouTube Shorts
+! Description: Hide the YouTube shorts from recommendations and from the sidebar.
+! Last Modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+
+! This will remove the YouTube shorts from the feed
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer
+www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer
+
+! This will remove shorts button on the sidebar
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=Shorts])
