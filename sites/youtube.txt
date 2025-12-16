@@ -1,3 +1,10 @@
+! Title: YouTube Filters
+! Description: Some selectors to hide elements I don't like.
+! Last Modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+
 ! This will remove the YouTube shorts from the feed
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-rich-section-renderer
