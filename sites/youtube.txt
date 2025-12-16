@@ -8,3 +8,4 @@
 !#include youtube/shorts.txt
 !#include youtube/membership.txt
 !#include youtube/gemini.txt
+!#include youtube/search.txt
