@@ -13,9 +13,6 @@ www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer
 ! This will remove shorts button on the sidebar
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=Shorts])
 
-! This will remove border-radius for the player
-www.youtube.com##:is(#ytd-player,#player-api):style(border-radius: 0 !important)
-
 ! This will hide annoying "Members Only" videos from side recommendations
 www.youtube.com##yt-lockup-view-model.ytd-item-section-renderer:has(yt-badge-view-model > badge-shape.yt-badge-shape--commerce)
 
