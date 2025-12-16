@@ -11,3 +11,6 @@ www.youtube.com##:is(#ytd-player,#player-api):style(border-radius: 0 !important)
 
 ! This will hide annoying "Members Only" videos from side recommendations
 www.youtube.com##yt-lockup-view-model.ytd-item-section-renderer:has(yt-badge-view-model > badge-shape.yt-badge-shape--commerce)
+
+! This hides "Video Summary" from Gemini which appears under the video description
+www.youtube.com###expandable-metadata:has(> ytd-expandable-metadata-renderer[has-video-summary])
