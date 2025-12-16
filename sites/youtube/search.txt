@@ -5,5 +5,7 @@
 ! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
 ! Homepage: https://github.com/koloml/ublock-origin-custom-filters
 
-! This will hide unrelated "Previously Watched" section in the search results
+! This will hide unrelated "Previously Watched" or "Channels new to you" sections in the search results. This rule will
+! catch any section which is marked by special "dismissible" section, which are all likely to be unrelated to search
+! results. Hopefully.
 www.youtube.com##ytd-search ytd-item-section-renderer > #contents > ytd-shelf-renderer:has(> #dismissible)
