@@ -1,0 +1,9 @@
+! Title: Kolo's Custom Filters
+! Last modified: %timestamp%
+! Expires: 7 days
+! Description: Collection of different opinionated filters for the sites I usually use. Specific sites can be turned on or off to heart desire.
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+! Forums: ! Homepage: https://github.com/koloml/ublock-origin-custom-filters/issues
+
+!#include sites/youtube.txt
