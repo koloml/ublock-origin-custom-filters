@@ -1,5 +1,5 @@
-! Title: YouTube Filters
-! Description: Some selectors to hide elements I don't like.
+! Title: Kolo's Custom Filters - YouTube
+! Description: Hiding of annoying parts of the YouTube I'm personally not in love with.
 ! Last Modified: %timestamp%
 ! Expires: 7 days
 ! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
