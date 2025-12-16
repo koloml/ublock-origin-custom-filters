@@ -10,5 +10,5 @@ option in context menu.
 
 ### Lists
 
-- [Import All Filters](ubo:subscribe?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/formatting-for-ublock-origin/filters.txt&title=Kolo's+Custom+Filters)
-  - [YouTube Filters](ubo:subscribe?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/formatting-for-ublock-origin/sites/youtube.txt&title=Kolo's+Custom+Filters+-+YouTube)
+- [Import All Filters](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/formatting-for-ublock-origin/filters.txt&title=Kolo's+Custom+Filters)
+  - [YouTube Filters](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/formatting-for-ublock-origin/sites/youtube.txt&title=Kolo's+Custom+Filters+-+YouTube)
