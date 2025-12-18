@@ -1,0 +1,9 @@
+! Title: Kolo's Custom Filters - Google Docs
+! Description: Hiding some elements which placed in very uncomfortable places in Google Docs.
+! Last Modified: %timestamp%
+! Expires: 7 days
+! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
+! Homepage: https://github.com/koloml/ublock-origin-custom-filters
+
+! This hides "Refine" bubble action which appears when highlighting text in the Google Docs.
+docs.google.com##.docs-bubble-material[aria-label=Refine]

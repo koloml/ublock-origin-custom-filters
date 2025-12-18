@@ -5,4 +5,5 @@
 ! License: https://github.com/koloml/ublock-origin-custom-filters/blob/master/LICENSE
 ! Homepage: https://github.com/koloml/ublock-origin-custom-filters
 
+!#include sites/google-docs.txt
 !#include sites/youtube.txt

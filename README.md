@@ -14,6 +14,7 @@ Unfortunately, there is no way to make these filters toggleable in the uBlock Or
 ### Lists
 
 - [All Filters](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/master/filters.txt&title=Kolo's+Custom+Filters) — This will include all filters created in the repository at once.
+  - [Google Docs](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/master/sites/google-docs.txt&title=Kolo's+Custom+Filters+-+Google+Docs) — Hides annoyances from Google Docs.
   - [YouTube](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/master/sites/youtube.txt&title=Kolo's+Custom+Filters+-+YouTube) — Hides parts of the YouTube I didn't like.
     - [Shorts](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/master/sites/youtube/shorts.txt&title=Kolo's+Custom+Filters+-+YouTube+Shorts) — Hide YouTube Shorts from sidebar and from the recommendations.
     - [Membership Videos](https://subscribe.adblockplus.org/?location=https://github.com/koloml/ublock-origin-custom-filters/raw/refs/heads/master/sites/youtube/membership.txt&title=Kolo's+Custom+Filters+-+YouTube+Memebrship) — Hide members-only videos from the sidebar.
