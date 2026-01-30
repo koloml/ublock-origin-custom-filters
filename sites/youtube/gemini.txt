@@ -7,3 +7,6 @@
 
 ! This hides "Video Summary" from Gemini which appears under the video description
 www.youtube.com###expandable-metadata:has(> ytd-expandable-metadata-renderer[has-video-summary])
+
+! Hides "Video Summary" from inside of video description
+www.youtube.com###video-summary
