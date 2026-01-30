@@ -12,3 +12,6 @@ www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer
 
 ! This will remove shorts button on the sidebar
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=Shorts])
+
+! Removes Shorts section from video description
+www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
