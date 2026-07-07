@@ -6,4 +6,4 @@
 ! Homepage: https://github.com/koloml/ublock-origin-custom-filters
 
 ! This hides "Refine" bubble action which appears when highlighting text in the Google Docs.
-docs.google.com##.docs-bubble-material[aria-label=Refine]
+docs.google.com##.docs-bubble-material.aiFabEnabled
