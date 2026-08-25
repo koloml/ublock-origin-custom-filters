@@ -10,3 +10,6 @@ www.youtube.com###expandable-metadata:has(> ytd-expandable-metadata-renderer[has
 
 ! Hides "Video Summary" from inside of video description
 www.youtube.com###video-summary
+
+! Hides "Ask" button from the video
+www.youtube.com##yt-button-view-model:has(>.you-chat-entrypoint-button)
